@@ -5,9 +5,9 @@ module.exports = {
         ['link', { rel: 'icon', href: '/img/icon.ico' }],
         ['link', {rel: 'stylesheet', href: '/css/style.css'}],
     ],
-    base: '/',
-    repo: 'https://github.com/lxd0619/lxd0619.github.io.git',
-    repoLabel: 'My GitHub',
+    // base: '/lxd0619.github.io/',
+    // repo: 'git@github.com:lxd0619/lxd0619.github.io.git',
+    // repoLabel: 'My GitHub',
     serviceWorker: true, // 是否开启 PWA
     markdown: {
         lineNumber: false //
