@@ -1,34 +1,16 @@
 module.exports = [
+    {text:'Home',link:'/'},
     {
-        text: 'JavaScript进阶',
+        text: '前端',
         items: [
-            { text: '框架的设计 jQuery源码分析', link: '/senior-js/jquery/' },
-            { text: '函数式编程 Underscore源码分析', link: '/senior-js/underscore/' },
-            { text: '模块化编程 自研模块加载器', link: '/senior-js/module/' },
+            { text: 'vue', link: '/front-end/vue/' },
+            { text: 'react', link: '/front-end/react/' }
         ]
     },
     {
-        text: '单页应用开发',
+        text: 'notes',
         items: [
-            { text: '组件化开发 React专题', link: '/spa/react/' },
-            { text: '组件化开发 Vue专题', link: '/spa/vue/' },
-            { text: '现代前端工程实践方案 解锁webpack', link: '/spa/webpack/' },
-        ]
-    },
-    {
-        text: '移动端APP开发',
-        items: [
-            { text: 'TODO-1', link: '/mobile/TODO1/' },
-            { text: 'TODO-2', link: '/mobile/TODO2/' },
-            { text: 'TODO-3', link: '/mobile/TODO3/' },
-        ]
-    },
-    {
-        text: 'Node开发',
-        items: [
-            { text: 'TODO-1', link: '/node/TODO1/' },
-            { text: 'TODO-2', link: '/node/TODO2/' },
-            { text: 'TODO-3', link: '/node/TODO3/' },
+            { text: 'note1', link: '/notes/test' }
         ]
     },
     {
@@ -36,17 +18,10 @@ module.exports = [
         link: 'https://github.com/lxd0619'
     },
     {
-        text: '菜单4',
-        items: [
-            { text: '菜单4-1', link: '/ers1' },
-            { text: '菜单4-2', link: '/ers2' },
-        ]
-    },
-    {
-        text: 'Languages',
+        text: 'Languages(假的！)',
         items: [
             { text: 'Chinese', link: '/language/chinese/' },
-            { text: 'Japanese', link: '/language/japanese/' }
+            { text: 'English', link: '/language/English/' }
         ]
     }
 ]

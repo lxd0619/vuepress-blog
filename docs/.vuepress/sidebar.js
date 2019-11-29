@@ -1,4 +1,4 @@
 module.exports = {
-    '/senior-js/jquery/': require('../senior-js/jquery/sidebar'),
-    // '/senior-js/underscore/': require('../senior-js/underscore/sidebar'),
+    '/front-end/vue/': require('../front-end/vue/sidebar'),
+    '/front-end/react/': require('../front-end/react/sidebar')
 }
