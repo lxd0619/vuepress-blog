@@ -36,3 +36,6 @@ npm run d
 
 请确保你的 Node.js 版本 >= 8。
 :::
+
+# Vssue Demo
+<Vssue title="Vssue Demo" />

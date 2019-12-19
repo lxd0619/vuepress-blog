@@ -22,8 +22,14 @@
     "url": "https://github.com/lxd0619/lxd0619.github.io/issues"
   },
   "homepage": "https://github.com/lxd0619/lxd0619.github.io#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "@vuepress/plugin-pwa": "^1.2.0"
+  },
   "dependencies": {
+    "@vssue/api-github-v3": "^1.1.2",
+    "@vssue/vuepress-plugin-vssue": "^1.2.2",
     "chokidar": "^3.3.0",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",

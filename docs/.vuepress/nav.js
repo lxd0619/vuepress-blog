@@ -10,7 +10,7 @@ module.exports = [
     {
         text: 'notes',
         items: [
-            { text: 'note1', link: '/notes/test' }
+            { text: 'vuepress', link: '/notes/vuepress/' }
         ]
     },
     {
