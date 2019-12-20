@@ -1,10 +1,11 @@
 module.exports = [
+  ['autobar'],
   [
     "ribbon",
     {
       size: 90, // 彩带的宽度,默认为 90
       opacity: 0.7, // 彩带的不透明度,默认为 0.3
-      zIndex: -1 // 彩带的 z-index 属性,默认值为 -1
+      zIndex: 0 // 彩带的 z-index 属性,默认值为 -1
     }
   ],
   [
@@ -25,9 +26,9 @@ module.exports = [
       zIndex: 999999999 // z-index property of the canvas, default: 999999999
     }
   ],
-  // ["go-top"],
+  ["go-top"],
   // ["@vuepress/back-to-top":true],
-  ["@vuepress/back-to-top"],
+  // ["@vuepress/back-to-top"],
   [
     "vuepress-plugin-live2d",
     {
