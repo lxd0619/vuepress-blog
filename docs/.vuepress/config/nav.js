@@ -3,25 +3,19 @@ module.exports = [
     {
         text: '前端',
         items: [
-            { text: 'vue', link: '/front-end/vue/' },
-            { text: 'react', link: '/front-end/react/' }
+            { text: 'vue', link: '/zh/front-end/vue/' },
+            { text: 'react', link: '/zh/front-end/react/' }
         ]
     },
     {
-        text: 'notes',
+        text: '日志',
         items: [
-            { text: 'vuepress', link: '/notes/vuepress/' }
+            { text: 'vuepress', link: '/zh/notes/vuepress/' },
+            { text: 'todo', link: '/zh/notes/todo/' }
         ]
     },
     {
         text: 'Github',
         link: 'https://github.com/lxd0619'
-    },
-    {
-        text: 'Languages(假的！)',
-        items: [
-            { text: 'Chinese', link: '/language/chinese/' },
-            { text: 'English', link: '/language/English/' }
-        ]
     }
 ]

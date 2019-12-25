@@ -1,13 +1,13 @@
 module.exports = [
   ['autobar'],
-  [
-    "ribbon",
-    {
-      size: 90, // 彩带的宽度,默认为 90
-      opacity: 0.7, // 彩带的不透明度,默认为 0.3
-      zIndex: 0 // 彩带的 z-index 属性,默认值为 -1
-    }
-  ],
+  // [
+  //   "ribbon",
+  //   {
+  //     size: 90, // 彩带的宽度,默认为 90
+  //     opacity: 0.7, // 彩带的不透明度,默认为 0.3
+  //     zIndex: 0 // 彩带的 z-index 属性,默认值为 -1
+  //   }
+  // ],
   [
     "dynamic-title",
     {
@@ -26,9 +26,8 @@ module.exports = [
       zIndex: 999999999 // z-index property of the canvas, default: 999999999
     }
   ],
-  ["go-top"],
-  // ["@vuepress/back-to-top":true],
-  // ["@vuepress/back-to-top"],
+  // ["go-top"],
+  ['@vuepress/back-to-top', true],
   [
     "vuepress-plugin-live2d",
     {
@@ -46,18 +45,18 @@ module.exports = [
       position: "left" // 显示在左下角还是右下角
     }
   ],
-  [
-    "@vssue/vuepress-plugin-vssue",
-    {
-      // 设置 `platform` 而不是 `api`
-      platform: "github",
-      // 其他的 Vssue 配置
-      owner: "lxd0619",
-      repo: "lxd0619.github.io",
-      clientId: "a584f756d8fd0d85d0a1",
-      clientSecret: "96fa17fa7b6f72b5d08adb794e79c46dd4d2c0e8"
-    }
-  ],
+  // [
+  //   "@vssue/vuepress-plugin-vssue",
+  //   {
+  //     // 设置 `platform` 而不是 `api`
+  //     platform: "github",
+  //     // 其他的 Vssue 配置
+  //     owner: "lxd0619",
+  //     repo: "lxd0619.github.io",
+  //     clientId: "a584f756d8fd0d85d0a1",
+  //     clientSecret: "96fa17fa7b6f72b5d08adb794e79c46dd4d2c0e8"
+  //   }
+  // ],
   [
     "@vuepress/pwa",
     {
@@ -69,6 +68,24 @@ module.exports = [
     "@vuepress/google-analytics",
     {
       ga: "UA-154773036-1" // UA-00000000-0
+    }
+  ],
+  // [
+  //   'vuepress-plugin-comment',
+  //   {
+  //     choosen: 'valine', 
+  //     // options选项中的所有参数，会传给Valine的配置
+  //     options: {
+  //       el: '#valine-vuepress-comment',
+  //       appId: 'aV8lquhY5GiCYoNFnV8WoxDp-9Nh9j0Va',
+  //       appKey: 'fH9GGWpjhRPWzNmxlMbLO278'
+  //     }
+  //   }
+  // ],
+  [
+    '@vuepress/register-components',
+    {
+      componentsDir: './components'
     }
   ]
 ];
