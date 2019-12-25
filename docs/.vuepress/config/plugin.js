@@ -45,18 +45,18 @@ module.exports = [
       position: "left" // 显示在左下角还是右下角
     }
   ],
-  // [
-  //   "@vssue/vuepress-plugin-vssue",
-  //   {
-  //     // 设置 `platform` 而不是 `api`
-  //     platform: "github",
-  //     // 其他的 Vssue 配置
-  //     owner: "lxd0619",
-  //     repo: "lxd0619.github.io",
-  //     clientId: "a584f756d8fd0d85d0a1",
-  //     clientSecret: "96fa17fa7b6f72b5d08adb794e79c46dd4d2c0e8"
-  //   }
-  // ],
+  [
+    "@vssue/vuepress-plugin-vssue",
+    {
+      // 设置 `platform` 而不是 `api`
+      platform: "github",
+      // 其他的 Vssue 配置
+      owner: "lxd0619",
+      repo: "lxd0619.github.io",
+      clientId: "a584f756d8fd0d85d0a1",
+      clientSecret: "96fa17fa7b6f72b5d08adb794e79c46dd4d2c0e8"
+    }
+  ],
   [
     "@vuepress/pwa",
     {
@@ -70,16 +70,16 @@ module.exports = [
       ga: "UA-154773036-1" // UA-00000000-0
     }
   ],
-  [
-    'vuepress-plugin-comment',
-    {
-      choosen: 'valine', 
-      // options选项中的所有参数，会传给Valine的配置
-      options: {
-        el: '#valine-vuepress-comment',
-        appId: 'aV8lquhY5GiCYoNFnV8WoxDp-9Nh9j0Va',
-        appKey: 'fH9GGWpjhRPWzNmxlMbLO278'
-      }
-    }
-  ]
+  // [
+  //   'vuepress-plugin-comment',
+  //   {
+  //     choosen: 'valine', 
+  //     // options选项中的所有参数，会传给Valine的配置
+  //     options: {
+  //       el: '#valine-vuepress-comment',
+  //       appId: 'aV8lquhY5GiCYoNFnV8WoxDp-9Nh9j0Va',
+  //       appKey: 'fH9GGWpjhRPWzNmxlMbLO278'
+  //     }
+  //   }
+  // ]
 ];
