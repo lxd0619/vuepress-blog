@@ -3,7 +3,7 @@ module.exports = [
         title: 'react',
         collapsable: true,
         children: [
-            '/front-end/react/test'
+            '/en/front-end/react/test'
         ]
     }
 ]

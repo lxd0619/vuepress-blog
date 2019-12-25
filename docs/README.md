@@ -1,8 +1,8 @@
 ---
 home: true
-# heroImage: /img/lueluelue.png
+heroImage: /img/head.png
 actionText: Go ➡
-actionLink: /front-end/vue/
+actionLink: /zh/front-end/vue/
 # features:
 # - title: vue
 #   details: 渐进式 JavaScript 框架

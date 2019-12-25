@@ -70,22 +70,16 @@ module.exports = [
       ga: "UA-154773036-1" // UA-00000000-0
     }
   ],
-  // [
-  //   'vuepress-plugin-comment',
-  //   {
-  //     choosen: 'valine', 
-  //     // options选项中的所有参数，会传给Valine的配置
-  //     options: {
-  //       el: '#valine-vuepress-comment',
-  //       appId: 'aV8lquhY5GiCYoNFnV8WoxDp-9Nh9j0Va',
-  //       appKey: 'fH9GGWpjhRPWzNmxlMbLO278'
-  //     }
-  //   }
-  // ],
   [
-    '@vuepress/register-components',
+    'vuepress-plugin-comment',
     {
-      componentsDir: './components'
+      choosen: 'valine', 
+      // options选项中的所有参数，会传给Valine的配置
+      options: {
+        el: '#valine-vuepress-comment',
+        appId: 'aV8lquhY5GiCYoNFnV8WoxDp-9Nh9j0Va',
+        appKey: 'fH9GGWpjhRPWzNmxlMbLO278'
+      }
     }
   ]
 ];

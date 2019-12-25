@@ -2,17 +2,12 @@ module.exports = [
     {
         title: 'vue',
         collapsable: true,
+        sidebarDepth: 2,    // 可选的, 默认值是 1
         children: [
-            '/front-end/vue/1',
-            '/front-end/vue/2',
+            '/en/front-end/vue/1',
+            '/en/front-end/vue/2',
+            '/en/front-end/vue/3',
+            '/en/front-end/vue/4',
         ]
     },
-    // {
-    //     title: '回调对象设计',
-    //     collapsable: true,
-    //     children: [
-    //         '/senior-js/vue/3',
-    //         '/senior-js/vue/4',
-    //     ]
-    // },
 ]

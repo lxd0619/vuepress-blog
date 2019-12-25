@@ -1,6 +1,5 @@
 const head = require("./config/head");
 const nav = require("./config/nav");
-const nav_en = require("./config/nav_en")
 const sidebar = require("./config/sidebar");
 const plugins = require("./config/plugin");
 
@@ -29,8 +28,8 @@ module.exports = {
         label: "简体中文",
         // github 编辑链接的文字
         editLinkText: "在 GitHub 上编辑此页",
-        nav: nav,
-        sidebar: sidebar
+        nav: nav.zh,
+        sidebar: sidebar.zh
       },
       "/en/": {
         // text for the language dropdown
@@ -39,8 +38,8 @@ module.exports = {
         label: "English",
         // text for the edit-on-github link
         editLinkText: "Edit this page on GitHub",
-        nav: nav_en,
-        // sidebar: sidebar
+        nav: nav.en,
+        sidebar: sidebar.en
       }
     }
   },
@@ -57,13 +56,13 @@ module.exports = {
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     "/": {
       lang: "zh-CN", // 将会被设置为 <html> 的 lang 属性
-      title: "VuePress",
-      description: "Vue 驱动的静态网站生成器"
+      title: "coder & cat",
+      description: "A coder who love cat."
     },
     "/en/": {
       lang: "en-US",
-      title: "VuePress",
-      description: "Vue-powered Static Site Generator"
+      title: "coder & cat",
+      description: "A coder who love cat."
     }
   }
 };
