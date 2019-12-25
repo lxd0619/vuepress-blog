@@ -3,8 +3,9 @@
     min-width: 2.2rem;
     vertical-align: middle;
     content: '';
-    background: url('../img/favicon.ico') no-repeat;
+    background: url('../img/head.png') no-repeat;
     background-size: cover;
     float: left;
     border-radius: 1rem;
+    margin-right: .2rem;
 }

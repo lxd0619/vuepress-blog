@@ -5,21 +5,18 @@ const plugins = require("./config/plugin");
 
 module.exports = {
   head: head,
-  // base: "/",
-  // repo: 'git@github.com:lxd0619/lxd0619.github.io.git',
-  // repoLabel: 'My GitHub',
   serviceWorker: true, // 是否开启 PWA
-  ga: "UA-154773036-1",
-  markdown: {
-    lineNumbers: false //markdown行号
-  },
-  
+  ga: "UA-154773036-1",  
   themeConfig: {
     smoothScroll: true,
+    lastUpdated: "Last Updated",
+
+    repo: 'lxd0619 / lxd0619.github.io',
+    repoLabel: '查看源码',
+    docsRepo: 'lxd0619/vuepress-blog',
     docsDir: "docs",
     docsBranch: "master",
     editLinks: true,
-    lastUpdated: "Last Updated",
     locales: {
       "/": {
         // 语言下拉菜单的展示文本
