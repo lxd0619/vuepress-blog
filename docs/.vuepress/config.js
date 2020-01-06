@@ -6,13 +6,13 @@ const plugins = require("./config/plugin");
 module.exports = {
   head: head,
   serviceWorker: true, // 是否开启 PWA
-  ga: "UA-154773036-1",  
+  // ga: "UA-154773036-1",  
   themeConfig: {
     smoothScroll: true,
     lastUpdated: "Last Updated",
 
     repo: 'lxd0619 / lxd0619.github.io',
-    repoLabel: '查看源码',
+
     docsRepo: 'lxd0619/vuepress-blog',
     docsDir: "docs",
     docsBranch: "master",

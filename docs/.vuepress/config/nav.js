@@ -5,7 +5,8 @@ module.exports = {
       text: "前端",
       items: [
         { text: "vue", link: "/zh/front-end/vue/" },
-        { text: "react", link: "/zh/front-end/react/" }
+        { text: "react", link: "/zh/front-end/react/" },
+        { text: "css", link: "/zh/front-end/css/" },
       ]
     },
     {
@@ -14,31 +15,23 @@ module.exports = {
         { text: "vuepress", link: "/zh/notes/vuepress/" },
         { text: "todo", link: "/zh/notes/todo/" }
       ]
-    },
-    {
-      text: "Github",
-      link: "https://github.com/lxd0619"
     }
   ],
   en: [
     { text: "Home", link: "/en/" },
     {
-      text: "front-end",
+      text: "Front-end",
       items: [
         { text: "vue", link: "/en/front-end/vue/" },
         { text: "react", link: "/en/front-end/react/" }
       ]
     },
     {
-      text: "notes",
+      text: "Notes",
       items: [
         { text: "vuepress", link: "/en/notes/vuepress/" },
         { text: "todo", link: "/en/notes/todo/" }
       ]
-    },
-    {
-      text: "Github",
-      link: "https://github.com/lxd0619"
     }
   ]
 };

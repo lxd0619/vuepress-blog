@@ -2,6 +2,7 @@ module.exports = {
   zh: {
     "/zh/front-end/vue/": require("../../zh/front-end/vue/sidebar"),
     "/zh/front-end/react/": require("../../zh/front-end/react/sidebar"),
+    "/zh/front-end/css/": require("../../zh/front-end/css/sidebar"),
     "/zh/notes/vuepress/": require("../../zh/notes/vuepress/sidebar"),
     "/zh/notes/todo/": require("../../zh/notes/todo/sidebar")
   },

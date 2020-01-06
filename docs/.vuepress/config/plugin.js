@@ -1,5 +1,20 @@
 module.exports = [
-  ['autobar'],
+  "@vuepress/back-to-top",
+  "@vuepress/active-header-links",
+  "@vuepress/medium-zoom"[
+    ("@vuepress/pwa",
+    {
+      serviceWorker: true,
+      updatePopup: true
+    })
+  ],
+  [
+    "@vuepress/google-analytics",
+    {
+      ga: "UA-154773036-1"
+    }
+  ],
+  ["autobar"],
   // [
   //   "ribbon",
   //   {
@@ -27,24 +42,60 @@ module.exports = [
     }
   ],
   // ["go-top"],
-  ['@vuepress/back-to-top', true],
   [
-    "vuepress-plugin-live2d",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang",
     {
-      modelName: [
-        "z16",
-        "Epsilon2.1",
-        "izumi",
-        "koharu",
-        "shizuku",
+      theme: [
+        "blackCat",
+        "whiteCat",
         "miku",
-        "hijiki",
-        "tororo"
-      ], // 模型名称,可传入一个字符串或者数组,可选值8个类型（z16,Epsilon2.1,izumi,koharu,shizuku,miku, hijiki, tororo),也可传入一个数组['hijiki','tororo',...](传入数组时刷新页面或者访问不同页面随机展示 )
-      mobileShow: true, // 是否在移动设备上显示
-      position: "left" // 显示在左下角还是右下角
+        "haruto",
+        "koharu",
+        "izumi",
+        "shizuku",
+        "wanko",
+        "z16",
+        "haru1",
+        "haru2"
+      ],
+      clean: false, //是否开启clean模式(隐藏所有按钮)
+      messages: {
+        welcome: "欢迎来到我的博客！",
+        home: "心里的花，我想要带你回家。",
+        theme: "好吧，希望你能喜欢我的其他小伙伴。",
+        close: "你知道我喜欢吃什么吗？痴痴地望着你。"
+      },
+      messageStyle: { right: "68px", bottom: "190px" },
+      modelStyle: { right: "90px", bottom: "20px", opacity: "0.9" },
+      btnStyle: { right: "90px", bottom: "60px" },
+      width: 150,
+      height: 220
     }
   ],
+  [
+    "register-components",
+    {
+      components: [
+        {
+          name: "hello",
+          path: "../components/hello.vue"
+        }
+      ]
+    }
+  ],
+  // [
+  //   'vuepress-plugin-comment',
+  //   {
+  //     choosen: 'valine',
+  //     // options选项中的所有参数，会传给Valine的配置
+  //     options: {
+  //       el: '#valine-vuepress-comment',
+  //       appId: 'aV8lquhY5GiCYoNFnV8WoxDp-9Nh9j0Va',
+  //       appKey: 'fH9GGWpjhRPWzNmxlMbLO278'
+  //     }
+  //   }
+  // ],
+
   [
     "@vssue/vuepress-plugin-vssue",
     {
@@ -57,29 +108,4 @@ module.exports = [
       clientSecret: "96fa17fa7b6f72b5d08adb794e79c46dd4d2c0e8"
     }
   ],
-  [
-    "@vuepress/pwa",
-    {
-      serviceWorker: true,
-      updatePopup: true
-    }
-  ],
-  [
-    "@vuepress/google-analytics",
-    {
-      ga: "UA-154773036-1" // UA-00000000-0
-    }
-  ],
-  // [
-  //   'vuepress-plugin-comment',
-  //   {
-  //     choosen: 'valine', 
-  //     // options选项中的所有参数，会传给Valine的配置
-  //     options: {
-  //       el: '#valine-vuepress-comment',
-  //       appId: 'aV8lquhY5GiCYoNFnV8WoxDp-9Nh9j0Va',
-  //       appKey: 'fH9GGWpjhRPWzNmxlMbLO278'
-  //     }
-  //   }
-  // ]
 ];
