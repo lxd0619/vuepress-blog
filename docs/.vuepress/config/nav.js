@@ -13,8 +13,8 @@ module.exports = {
     {
       text: "后端",
       items: [
-        { text: "nodejs", link: "/zh/back-end/nodejs/" },
-        { text: "database", link: "/zh/back-end/database/" }
+        { text: "NodeJS", link: "/zh/back-end/nodejs/" },
+        { text: "Database", link: "/zh/back-end/database/" }
       ]
     },
     {
