@@ -7,6 +7,14 @@ module.exports = {
         { text: "vue", link: "/zh/front-end/vue/" },
         { text: "react", link: "/zh/front-end/react/" },
         { text: "css", link: "/zh/front-end/css/" },
+        { text: "weChat", link: "/zh/front-end/weChat/" },
+      ]
+    },
+    {
+      text: "后端",
+      items: [
+        { text: "nodejs", link: "/zh/back-end/nodejs/" },
+        { text: "database", link: "/zh/back-end/database/" }
       ]
     },
     {
