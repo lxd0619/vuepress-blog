@@ -23,7 +23,7 @@ module.exports = {
     "/zh/back-end/nodejs": [`${nodejs}1`],
     "/zh/back-end/database": [`${database}1`],
     "/zh/notes/vuepress": [`${vuepress}1`, `${vuepress}2`],
-    "/zh/notes/todo": [`${todo}1`]
+    "/zh/notes/todo": [`${todo}`,`${todo}1`,`${todo}2`]
   },
   en: {
     "/en/front-end/vue/": require("../../en/front-end/vue/sidebar"),
