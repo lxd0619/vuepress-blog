@@ -6,14 +6,18 @@ const plugins = require("./config/plugin");
 module.exports = {
   head: head,
   serviceWorker: true, // 是否开启 PWA
-  // ga: "UA-154773036-1",  
+  markdown: {
+    extendMarkdown: md => {
+      md.use(require("markdown-it-task-lists"), { enabled: true });
+    }
+  },
   themeConfig: {
     smoothScroll: true,
     lastUpdated: "Last Updated",
 
-    repo: 'lxd0619 / lxd0619.github.io',
+    repo: "lxd0619 / lxd0619.github.io",
 
-    docsRepo: 'lxd0619/vuepress-blog',
+    docsRepo: "lxd0619/vuepress-blog",
     docsDir: "docs",
     docsBranch: "master",
     editLinks: true,

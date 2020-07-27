@@ -1,7 +1,7 @@
 module.exports=[
     ["link", { rel: "icon", href: "/img/favicon.ico" }],
     ["link", { rel: "manifest", href: "/manifest.json" }],
-    ["link", { rel: "apple-touch-icon", href: "/img/favicon.ico" }],
+    ["link", { rel: "apple-touch-icon", href: "/img/favicon/favicon.ico" }],
     ["link", { rel: "stylesheet", href: "/css/style.css" }],
 
     // ['meta', { name: 'theme-color', content: '#3eaf7c' }],

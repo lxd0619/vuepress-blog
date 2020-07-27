@@ -1,14 +1,15 @@
 ---
 home: true
-heroImage: /img/head.png
+heroImage: /img/favicon/cat.ico
 actionText: Go ➡
-actionLink: /zh/front-end/vue/
+actionLink: /zh/front_end/vue/
+layout: HomeLayout
 # features:
 # - title: vue
 #   details: 渐进式 JavaScript 框架
 # - title: react
 #   details: 用于构建用户界面的 JavaScript 库
-footer: MIT Licensed | Copyright © 2019-present 不见长安
+footer: MIT Licensed | Copyright © 2019-present 此岁
 ---
 
 <!-- ### clone
@@ -17,7 +18,7 @@ footer: MIT Licensed | Copyright © 2019-present 不见长安
 git clone git@github.com:lxd0619/vuepress-blog.git
 
 # install dependencies
-npm install 
+npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
